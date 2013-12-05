@@ -17,5 +17,5 @@ void draw() {
     drops[i].fall();
     drops[i].fodrizzle();
   }
-  Catcher.display();
+  c.display();
 }

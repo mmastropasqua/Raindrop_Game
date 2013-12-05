@@ -1,15 +1,13 @@
 class Catcher {
-  PVector loc;
   int d;
 
   Catcher() {
-    loc = new PVector(mouseX, height-100);
-    d = 40;
+    d = 80;
   }
 
   void display() {
     fill(random(255), random(255), random(255));
-    ellipse(loc.x, loc.y, d, d/4);
+    ellipse(mouseX, height-100, d, d/4);
   }
 }
 
